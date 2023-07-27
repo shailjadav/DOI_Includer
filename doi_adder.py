@@ -34,4 +34,4 @@ def add_doi_to_bib(bib_file_path, new_bib_file_path):
         bibtexparser.dump(bib_database, new_bib_file)
 
 # Usage
-add_doi_to_bib("sn-bibliography.bib", "doi-test1.bib")
+add_doi_to_bib("your_file_name.bib", "new.bib")
